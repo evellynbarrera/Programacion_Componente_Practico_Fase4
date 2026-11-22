@@ -10,7 +10,7 @@ Responsabilidades:
 - Confirmar y cancelar reservas.
 - Procesar reservas y calcular su costo.
 - Controlar los estados de cada reserva.
-"""../reserva.py
+"""
 
 from infraestructura import (
     EntidadBase,
