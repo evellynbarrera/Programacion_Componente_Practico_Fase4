@@ -11,12 +11,6 @@ operaciones exitosas y pruebas de errores.
 """
 
 # IMPORTACIONES
-import sys
-from pathlib import Path
-
-# Permite importar los archivos del Integrante 3
-RUTA_INTEGRANTE_3 = Path(__file__).resolve().parent.parent / "Integrante_3"
-sys.path.insert(0, str(RUTA_INTEGRANTE_3))
 
 from infraestructura import ejecutar_operacion
 from entidades import Cliente, Salas, Equipos, Asesorias
