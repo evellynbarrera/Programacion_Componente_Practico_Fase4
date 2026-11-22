@@ -530,6 +530,6 @@ if __name__ == "__main__":
         "Crear asesoría válida", Asesorias, "Arquitectura Python", 80.0, "Backend & POO", "Virtual"
     )
 
-    for srv in (sala, equipo, asesoría):
+    for srv in (sala, equipo, asesoria):
         if srv:
             print(srv.describir(), "-> Costo (2):", srv.calcular_costo(2))
